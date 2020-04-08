@@ -1,0 +1,183 @@
+div.oskari-flyout div.oskari-flyoutcontent a {
+  color: #f47a5c; }
+  div.oskari-flyout div.oskari-flyoutcontent a:hover {
+    color: #f47a5c; }
+
+table {
+  border-top-width: 0px; }
+  table td {
+    text-align: left;
+    vertical-align: top; }
+
+.logo {
+  background-image: url("logo.png");
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px; }
+
+#lounais-text {
+  color: #ddd;
+  margin-top: -4px;
+  margin-left: 16px;
+  line-height: 18px;
+  padding-bottom: 4px; }
+
+#contentMap {
+  margin-left: 200px !important; }
+  #contentMap.mapPrintoutMode {
+    margin-left: 252px !important; }
+
+#maptools {
+  width: 200px !important; }
+  #maptools div#menubar .oskari-tile-status {
+    margin-right: 3px; }
+
+.icon-bubble-right {
+  background-image: url("valintaosoitin.png") !important;
+  background-position: 0 !important; }
+
+div.tool.marker-share {
+  background-image: url("marker-share-dark.png") !important;
+  background-position: 0 !important; }
+
+div.oskari-flyout div.oskari-flyouttoolbar {
+  background-color: #eee; }
+  div.oskari-flyout div.oskari-flyouttoolbar div.oskari-flyoutheading {
+    background-color: #f47a5c;
+    border-color: #f47a5c; }
+div.oskari-flyout div.oskari-flyoutcontent {
+  color: #000000 !important; }
+  div.oskari-flyout div.oskari-flyoutcontent .field-description {
+    color: #000000 !important; }
+  div.oskari-flyout div.oskari-flyoutcontent.userguide .tool-background-color {
+    background-color: #333438; }
+  div.oskari-flyout div.oskari-flyoutcontent.routesearch a {
+    color: #FAFAFA; }
+    div.oskari-flyout div.oskari-flyoutcontent.routesearch a.disabled {
+      color: #3c3c3c; }
+
+/** Tools */
+#contentMap div.oskariui-mode-content div.oskariui-center div#mapdiv div.mapplugins div.mappluginsContainer div.mappluginsContent div.mapplugin.coordinatetool.toolstyle-default {
+  background-color: #f47a5c; }
+#contentMap div.oskariui-mode-content div.oskariui-center div#mapdiv div.mapplugins div.mappluginsContainer div.mappluginsContent div.mapplugin.featuredataplugin.toolstyle-default {
+  background-color: #f47a5c; }
+
+div.divmanazerpopup .popupHeader {
+  background-color: #f47a5c !important;
+  color: #ffffff; }
+
+.download-basket__component-title {
+  background-color: #eee !important; }
+
+img.map, map area {
+  outline: none; }
+
+.userguide_table.first_header td:first-child {
+  width: 110px; }
+
+@media screen and (max-height: 600px) {
+  table.layer-rights-table tbody {
+    max-height: 56px; } }
+@media screen and (max-height: 800px) and (min-height: 600px) {
+  table.layer-rights-table tbody {
+    max-height: 250px; } }
+@media screen and (min-height: 800px) {
+  table.layer-rights-table tbody {
+    max-height: 450px; } }
+
+.mobileToolbarDiv {
+  background-color: #f47a5c !important; }
+
+/* Selection colours */
+::selection {
+  background: #99c7dF; }
+
+::-moz-selection {
+  background: #99c7dF; }
+
+div.basic_printout > .header:first-child {
+  background-color: #f47a5c !important; }
+
+#login {
+  margin-left: 16px !important;
+  margin-right: 16px !important;
+  margin-top: 32px !important; }
+  #login input[type="text"], #login input[type="password"] {
+    width: 90%;
+    margin-bottom: 5px;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #B7B7B7;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+    color: #878787;
+    font: 13px/100% Arial,sans-serif; }
+  #login input[type="submit"] {
+    width: 100% !important;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #B7B7B7;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+    color: #878787;
+    font: 13px/100% Arial,sans-serif; }
+  #login p.error {
+    font-weight: bold;
+    color: red;
+    margin-bottom: 10px; }
+  #login a {
+    color: #FFF;
+    padding: 5px;
+    font-size: 12px; }
+
+#contentMap div.oskariui-mode-content div.oskariui-center div#mapdiv div.mapplugins div.mappluginsContainer div.mappluginsContent div.mapplugin.featuredataplugin.toolstyle-default {
+  z-index: 100000; }
+
+/*.logoplugin .icon {
+  background-image: url(../../lounaistieto_icon_musta.png) !important; }
+*/
+div.layerselector2 div.layer div.layer-backendstatus-icon {
+  display: none !important; }
+
+.affiliate_logos {
+  background-image: url(karttapalvelu-logot.png);
+  position: absolute;
+  bottom: 0em;
+  width: 150px;
+  height: 90px;
+  margin: 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px; }
+  @media screen and (max-height: 850px) {
+    .affiliate_logos {
+      background-image: url(karttapalvelu-logot.png);
+      position: static !important;
+      width: 150px;
+      height: 90px;
+      margin: 1em 12px 12px 12px;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 10px; } }
+
+.login-a {
+  padding: 5px 5px 5px 0px !important;
+  font-size: 14px !important; }
+  .login-a:link {
+    text-decoration: none !important; }
+  .login-a:visited {
+    text-decoration: none !important; }
+  .login-a:hover {
+    text-decoration: underline !important; }
+
+#toggle-login {
+  cursor: pointer; }
+#toggle-login:hover {
+  text-decoration: underline !important; }
+
+
+
+/*# sourceMappingURL=overwritten.css.map */

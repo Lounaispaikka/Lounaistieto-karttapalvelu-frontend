@@ -1,0 +1,158 @@
+$mainColor: #0073B0;
+$mainLightColor: #99c7dF;
+$mainHoverColor: #338fc0;
+$lightFontColor: #ffffff;
+
+$menuColor: $mainColor;
+$hoverMenuColor: #66abd0;
+$menuTextColor: $lightFontColor;
+$menuToolBorderColor: #ffffff;
+$menuToolHoverColor: $mainHoverColor;
+$flyoutHeaderTopColor: $mainColor;
+$flyoutHeaderBottomColor: $mainLightColor;
+
+$popupBorderColor: $mainColor;
+$popupToolHeaderColor: $mainColor;
+$popupHeaderFontColor: $lightFontColor;
+
+%flyout-links {
+  a {
+        color: $mainColor;
+        &:hover {
+            color: $mainColor;
+        }
+    }
+}
+
+
+.mobileToolbarDiv{
+    background-color: $mainColor !important;
+}
+
+
+table td {
+  text-align: left;
+  vertical-align: top; }
+
+table {
+  border-top-width: 0px; }
+
+div.oskari-flyout {
+    border: solid 1px $popupBorderColor;
+    div.oskari-flyouttoolbar {
+            background-color: $flyoutHeaderBottomColor;
+        div.oskari-flyoutheading {
+            background-color: $flyoutHeaderTopColor;
+            border-color: $flyoutHeaderTopColor;
+        }
+    }
+    div.oskari-flyoutcontent {
+        @extend %flyout-links;
+
+        color: #000000 !important;
+
+        .field-description {
+            color: #000000 !important;
+        }
+
+        &.userguide {
+
+            .tool-background-color {
+                background-color: $mainColor;
+            }
+        }
+    }
+}
+
+input[type="text"], input[type="password"], input[type="submit"]{
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+/** Tools */
+div.mapplugin {
+    &.coordinatetool {
+        &.toolstyle-default, &.toolstyle-rounded-dark {
+            background-color: $mainColor !important;
+        }
+    }
+
+    &.featuredataplugin {
+        &.toolstyle-default, &.toolstyle-rounded-dark {
+            background-color: $mainColor !important;
+        }
+    }
+
+    &.mylocationplugin {
+        &.toolstyle-default, &.toolstyle-rounded-dark {
+            background-color: $mainColor !important;
+        }
+    }
+    &.maplegend {
+        &.toolstyle-default, &.toolstyle-rounded-dark {
+            background-color: $mainColor !important;
+        }
+    }
+
+    &.layerselection {
+        .header {
+            background-color: $mainColor !important;
+        }
+    }
+}
+
+div.divmanazerpopup {
+    border-radius: 0px;
+    border: solid 1px $popupBorderColor;
+    .popupHeader {
+        background-color: $popupToolHeaderColor !important;
+        color: $popupHeaderFontColor !important;
+    }
+
+    &.coordinatetool__popup {
+        div.popup-body {
+            div.actions {
+                width: 100%;
+                input {
+                    background-image: none;
+                    background-color: $mainColor;
+                    text-shadow: none;
+                    color: $lightFontColor;
+                    border: 1px solid $mainColor;
+                    width: 42%;
+                    &:hover {
+                        background-color: $mainHoverColor;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+input[type="text"], input[type="password"]{
+    box-shadow: none;
+    border-radius: 0px;
+    width: 96%;
+    background-image: none;
+    border: none;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+
+}
+input[type="submit"] {
+    box-shadow: none;
+    border-radius: 0px;
+    width: 96%;
+    border: none;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+/*
+.logoplugin .icon {
+    background-image: url(../../lounaistieto_icon_musta.png) !important;
+}*/

@@ -1,0 +1,93 @@
+div.oskari-flyout div.oskari-flyoutcontent a {
+  color: #0073B0; }
+  div.oskari-flyout div.oskari-flyoutcontent a:hover {
+    color: #0073B0; }
+
+.mobileToolbarDiv {
+  background-color: #0073B0 !important; }
+
+table td {
+  text-align: left;
+  vertical-align: top; }
+
+table {
+  border-top-width: 0px; }
+
+div.oskari-flyout {
+  border: solid 1px #0073B0; }
+  div.oskari-flyout div.oskari-flyouttoolbar {
+    background-color: #99c7dF; }
+    div.oskari-flyout div.oskari-flyouttoolbar div.oskari-flyoutheading {
+      background-color: #0073B0;
+      border-color: #0073B0; }
+  div.oskari-flyout div.oskari-flyoutcontent {
+    color: #000000 !important; }
+    div.oskari-flyout div.oskari-flyoutcontent .field-description {
+      color: #000000 !important; }
+    div.oskari-flyout div.oskari-flyoutcontent.userguide .tool-background-color {
+      background-color: #0073B0; }
+
+input[type="text"], input[type="password"], input[type="submit"] {
+  box-shadow: none;
+  border-radius: 0px; }
+
+/** Tools */
+div.mapplugin.coordinatetool.toolstyle-default, div.mapplugin.coordinatetool.toolstyle-rounded-dark {
+  background-color: #0073B0 !important; }
+div.mapplugin.featuredataplugin.toolstyle-default, div.mapplugin.featuredataplugin.toolstyle-rounded-dark {
+  background-color: #0073B0 !important; }
+div.mapplugin.mylocationplugin.toolstyle-default, div.mapplugin.mylocationplugin.toolstyle-rounded-dark {
+  background-color: #0073B0 !important; }
+div.mapplugin.maplegend.toolstyle-default, div.mapplugin.maplegend.toolstyle-rounded-dark {
+  background-color: #0073B0 !important; }
+div.mapplugin.layerselection .header {
+  background-color: #0073B0 !important; }
+
+div.divmanazerpopup {
+  border-radius: 0px;
+  border: solid 1px #0073B0; }
+  div.divmanazerpopup .popupHeader {
+    background-color: #0073B0 !important;
+    color: #ffffff !important; }
+  div.divmanazerpopup.coordinatetool__popup div.popup-body div.actions {
+    width: 100%; }
+    div.divmanazerpopup.coordinatetool__popup div.popup-body div.actions input {
+      background-image: none;
+      background-color: #0073B0;
+      text-shadow: none;
+      color: #ffffff;
+      border: 1px solid #0073B0;
+      width: 42%; }
+      div.divmanazerpopup.coordinatetool__popup div.popup-body div.actions input:hover {
+        background-color: #338fc0; }
+
+input[type="text"], input[type="password"] {
+  box-shadow: none;
+  border-radius: 0px;
+  width: 96%;
+  background-image: none;
+  border: none;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */ }
+
+input[type="submit"] {
+  box-shadow: none;
+  border-radius: 0px;
+  width: 96%;
+  border: none;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */ }
+/*
+.logoplugin .icon {
+  background-image: url(../../lounaistieto_icon_musta.png) !important; }
+  */
+
+/*# sourceMappingURL=overwritten.css.map */
