@@ -62,7 +62,7 @@ import 'oskari-loader!oskari-frontend/packages/integration/bundle/admin-layersel
 
 import 'oskari-loader!oskari-frontend/packages/integration/bundle/bb/bundle.js';
 
-//Poistettu
+//removed, replacement is geometrycutter
 //import 'oskari-loader!oskari-frontend/packages/framework/bundle/geometryeditor/bundle.js';
 
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/admin-layerrights/bundle.js';
@@ -89,7 +89,7 @@ import 'oskari-loader!oskari-frontend/packages/framework/bundle/statehandler/bun
 
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/coordinatedisplay/bundle.js';
 
-//removed, replacement is geometrycutter
+//removed
 //import 'oskari-loader!oskari-frontend/packages/paikkatietoikkuna/bundle/routesearch/bundle.js';
 
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/findbycoordinates/bundle.js';

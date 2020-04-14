@@ -52,10 +52,6 @@ div.oskari-flyout div.oskari-flyoutcontent {
     color: #000000 !important; }
   div.oskari-flyout div.oskari-flyoutcontent.userguide .tool-background-color {
     background-color: #333438; }
-  div.oskari-flyout div.oskari-flyoutcontent.routesearch a {
-    color: #FAFAFA; }
-    div.oskari-flyout div.oskari-flyoutcontent.routesearch a.disabled {
-      color: #3c3c3c; }
 
 /** Tools */
 #contentMap div.oskariui-mode-content div.oskariui-center div#mapdiv div.mapplugins div.mappluginsContainer div.mappluginsContent div.mapplugin.coordinatetool.toolstyle-default {

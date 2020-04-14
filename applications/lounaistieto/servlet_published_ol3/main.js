@@ -9,6 +9,8 @@ import 'oskari-loader!oskari-frontend/packages/framework/bundle/ui-components/bu
 
 import 'oskari-loader!oskari-frontend/packages/mapping/ol/mapwmts/bundle.js';
 
+import 'oskari-loader!oskari-frontend/packages/mapping/ol/drawtools/bundle.js';
+
 //removed
 //import 'oskari-loader!oskari-frontend/packages/framework/bundle/mapstats/bundle.js';
 import 'oskari-loader!oskari-frontend-contrib/packages/analysis/ol/analyse/bundle.js';
@@ -27,8 +29,6 @@ import 'oskari-loader!oskari-frontend/packages/mapping/ol/toolbar/bundle.js';
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/publishedstatehandler/bundle.js';
 
 import 'oskari-loader!oskari-frontend/packages/framework/featuredata2/bundle.js';
-
-import 'oskari-loader!oskari-frontend/packages/mapping/ol/drawtools/bundle.js';
 
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/routingService/bundle.js';
 
