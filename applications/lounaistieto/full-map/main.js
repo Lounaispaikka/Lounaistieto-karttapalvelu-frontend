@@ -89,6 +89,7 @@ import 'oskari-loader!oskari-frontend/packages/framework/bundle/statehandler/bun
 
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/coordinatedisplay/bundle.js';
 
+import 'oskari-loader!oskari-frontend/packages/mapping/ol/drawtools/bundle.js';
 //removed
 //import 'oskari-loader!oskari-frontend/packages/paikkatietoikkuna/bundle/routesearch/bundle.js';
 
