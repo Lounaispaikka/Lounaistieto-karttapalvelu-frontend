@@ -43,6 +43,34 @@ Oskari.registerLocalization(
 
 Oskari.registerLocalization({
     "lang": "en",
+    "key": "userinterface.UserGuide",
+    "value": {
+        "tabs": [
+            {
+              "tags": "ohje_karttaikkuna",
+              "title": "Karttaikkuna"
+            },
+            {
+              "tags": "ohje_tyokalut",
+              "title": "Työkalut"
+            },
+            {
+              "tags": "ohje_haku",
+              "title": "Haku"
+            },
+            {
+              "tags": "ohje_karttatasot",
+              "title": "Karttatasot"
+            },
+            {
+              "tags": "ohje_karttajulkaisu",
+              "title": "Karttajulkaisu"
+             }]
+    }
+}, true);
+
+Oskari.registerLocalization({
+    "lang": "en",
     "key": "userinterface.admin.UserGuide",
     "value": {
         "tabs": [
