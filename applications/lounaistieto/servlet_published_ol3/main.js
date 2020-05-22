@@ -1,5 +1,3 @@
-import './index.js';
-
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/mapfull/bundle.js';
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/oskariui/bundle.js';
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/divmanazer/bundle.js';

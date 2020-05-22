@@ -1,5 +1,3 @@
-import './index.js';
-
 // These framework bundles have to be imported first
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/mapfull/bundle.js';
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/oskariui/bundle.js';
