@@ -1,7 +1,7 @@
 {
   "name": "oskari-frontend-lounaistieto",
-  "version": "1.0.0",
-  "description": "Sample frontend for Oskari map application. Site visible in dev.oskari.org.",
+  "version": "1.2.3",
+  "description": "Oskari frontend of Lounaistieto. Site visible at https://karttapalvelu.lounaistieto.fi.",
   "keywords": [
     "Oskari"
   ],
