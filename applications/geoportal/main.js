@@ -7,7 +7,7 @@ import 'oskari-loader!oskari-frontend/packages/framework/bundle/divmanazer/bundl
 // Then import mapmodule and rest of the application
 import 'oskari-loader!oskari-frontend/packages/mapping/ol/mapmodule/bundle.js';
 
-import 'oskari-loader!../../../packages/lounaistieto/bundle/lounaistieto-lang-overrides/bundle.js';
+import 'oskari-loader!../../packages/lounaistieto/bundle/lounaistieto-lang-overrides/bundle.js';
 
 import 'oskari-loader!oskari-frontend/packages/mapping/ol/mapwmts/bundle.js';
 import 'oskari-loader!oskari-frontend/packages/mapping/ol/maparcgis/bundle.js';
