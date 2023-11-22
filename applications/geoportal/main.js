@@ -18,9 +18,6 @@ import 'oskari-loader!oskari-frontend/packages/mapping/ol/infobox/bundle.js';
 import 'oskari-loader!oskari-frontend/packages/mapping/ol/maprotator/bundle.js';
 import 'oskari-loader!oskari-frontend/packages/mapping/ol/userstyle/bundle.js';
 
-//import 'oskari-loader!oskari-frontend-contrib/packages/tampere/bundle/admin-wfs-search-channel/bundle.js';
-//import 'oskari-loader!oskari-frontend-contrib/packages/tampere/bundle/search-from-channels/bundle.js';
-
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/backendstatus/bundle.js';
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/routingService/bundle.js';
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/rpc/bundle.js';

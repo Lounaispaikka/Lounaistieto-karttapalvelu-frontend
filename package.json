@@ -1,13 +1,12 @@
 {
   "name": "oskari-frontend-lounaistieto",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Oskari frontend of Lounaistieto. Site visible at https://karttapalvelu.lounaistieto.fi.",
   "keywords": [
     "Oskari"
   ],
   "dependencies": {
-    "oskari-frontend": "https://git@github.com/oskariorg/oskari-frontend.git#2.9.0",
-    "oskari-frontend-contrib": "https://git@github.com/oskariorg/oskari-frontend-contrib.git#2.9.0"
+    "oskari-frontend": "https://git@github.com/oskariorg/oskari-frontend.git#2.12.1"
   },
   "scripts": {
     "build": "webpack --config ./node_modules/oskari-frontend/webpack.config.js --mode production --progress --env.appdef=applications",
