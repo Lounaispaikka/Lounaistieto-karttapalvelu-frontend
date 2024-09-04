@@ -16,11 +16,11 @@ import 'oskari-loader!oskari-frontend/packages/framework/bundle/publishedstateha
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/coordinatetool/bundle.js';
 
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/rpc/bundle.js';
+import 'oskari-loader!oskari-frontend/bundles/framework/layeranalytics/bundle.js';
 
 import 'oskari-lazy-loader?timeseries!oskari-frontend/packages/framework/bundle/timeseries/bundle.js';
 import 'oskari-lazy-loader?maplegend!oskari-frontend/packages/framework/bundle/maplegend/bundle.js';
-import 'oskari-lazy-loader?featuredata2!oskari-frontend/packages/framework/featuredata2/bundle.js';
+import 'oskari-lazy-loader?featuredata!oskari-frontend/packages/framework/featuredata/bundle.js';
 import 'oskari-lazy-loader?metadataflyout!oskari-frontend/packages/catalogue/bundle/metadataflyout/bundle.js';
-//import 'oskari-lazy-loader?routingService!oskari-frontend/packages/framework/bundle/routingService/bundle.js';
 
 import './css/overwritten.css';

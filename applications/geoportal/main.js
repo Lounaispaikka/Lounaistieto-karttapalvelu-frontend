@@ -34,7 +34,7 @@ import 'oskari-loader!oskari-frontend/packages/framework/bundle/publisher2/bundl
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/statehandler/bundle.js';
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/timeseries/bundle.js';
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/userguide/bundle.js';
-import 'oskari-loader!oskari-frontend/packages/framework/featuredata2/bundle.js';
+import 'oskari-loader!oskari-frontend/packages/framework/featuredata/bundle.js';
 import 'oskari-loader!oskari-frontend/bundles/framework/layeranalytics/bundle.js';
 
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/printout/bundle.js';
