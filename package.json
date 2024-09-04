@@ -1,12 +1,12 @@
 {
   "name": "oskari-frontend-lounaistieto",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Oskari frontend of Lounaistieto. Site visible at https://karttapalvelu.lounaistieto.fi.",
   "keywords": [
     "Oskari"
   ],
   "dependencies": {
-    "oskari-frontend": "https://git@github.com/oskariorg/oskari-frontend.git#2.12.1"
+    "oskari-frontend": "https://git@github.com/oskariorg/oskari-frontend.git#2.13.2"
   },
   "scripts": {
     "build": "webpack --config ./node_modules/oskari-frontend/webpack.config.js --mode production --progress --env.appdef=applications",
@@ -14,8 +14,7 @@
     "start:dev": "node ./node_modules/oskari-frontend/node_modules/webpack-dev-server/bin/webpack-dev-server.js --config ./node_modules/oskari-frontend/webpack.config.js --hot --env.appdef=devapp:applications",
     "build:dev": "node ./node_modules/oskari-frontend/node_modules/webpack/bin/webpack.js --config ./node_modules/oskari-frontend/webpack.config.js --mode production --progress --env.appdef=applications",
     "sprite": "node ./node_modules/oskari-frontend/webpack/sprite.js",
-    "test": "eslint --config ./node_modules/oskari-frontend/.eslintrc.js bundles",
-    "storybook": "start-storybook"
+    "test": "eslint --config ./node_modules/oskari-frontend/.eslintrc.js bundles"
   },
   "repository": {
     "type": "git",
